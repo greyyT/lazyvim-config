@@ -19,3 +19,11 @@ vim.g.alt_send_esc = true
 
 -- Enable AI
 vim.g.ai_cmp = true
+
+vim.g.lsp_signature = true
+vim.g.remote = false
+vim.g.lazyvim_blink_main = false
+vim.g.snacks_animate = false
+vim.g.ai_suggestion = true
+
+vim.g.lazyvim_picker = "telescope"

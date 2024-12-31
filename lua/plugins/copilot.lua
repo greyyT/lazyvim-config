@@ -5,7 +5,7 @@ return {
   event = "InsertEnter",
   opts = {
     suggestion = {
-      enabled = true,
+      enabled = vim.g.ai_suggestion,
       auto_trigger = true,
       hide_during_completion = true,
       debounce = 75,
@@ -42,6 +42,7 @@ return {
       java = true,
       markdown = true,
       yaml = true,
+      json = true,
       -- false
       help = false,
       gitcommit = false,
